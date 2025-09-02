@@ -11,7 +11,7 @@ import {
   useReactTable,
   type VisibilityState,
 } from "@tanstack/react-table"
-import { ArrowUpDown, ChevronDown, Columns2, MoreHorizontal } from "lucide-react"
+import { ArrowUpDown, Columns2, MoreHorizontal } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -41,7 +41,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-import {  PlusCircle, Search, SlidersHorizontal } from "lucide-react";
+import {  PlusCircle, Search } from "lucide-react";
 const data: Payment[] = [
   {
     id: "m5gr84i9",

@@ -1,4 +1,3 @@
-import { IconTrendingDown, IconTrendingUp } from "@tabler/icons-react"
 import { Activity, CreditCard, DollarSign, Users } from 'lucide-react';
 import { LineChart, Line, ResponsiveContainer } from "recharts"
 import {

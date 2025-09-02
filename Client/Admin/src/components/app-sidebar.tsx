@@ -4,7 +4,6 @@ import * as React from "react"
 import {
   AudioWaveform,
   BookOpen,
-  WalletCards ,
   Command,
   Frame,
   Zap,
@@ -12,7 +11,6 @@ import {
   Users ,
   PieChart,
   Settings2,
-  SquareTerminal,
   LayoutDashboard,
   ShoppingBag,
 } from "lucide-react";

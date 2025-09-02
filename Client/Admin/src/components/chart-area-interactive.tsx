@@ -131,7 +131,7 @@ const chartConfig = {
     label: "Mobile",
     color: "var(--chart-2)",
   },
-} satisfies ChartConfig
+} 
 
 export function ChartAreaInteractive() {
   const [timeRange, setTimeRange] = React.useState("90d")
