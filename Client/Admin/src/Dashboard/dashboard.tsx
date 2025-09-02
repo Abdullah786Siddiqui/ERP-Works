@@ -41,11 +41,13 @@ export default function Dashboard() {
           <SidebarTrigger className="-ml-1" />
           <Dialog>
   <DialogTrigger>
-  <Input
-        type="text"
-        placeholder="Type to search..."
-        className="w-full "
-      />
+  {/* Search Input */}
+<Input
+  type="text"
+  placeholder="Type to search..."
+  className="w-[300px]  px-4 py-2 text-base border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring"
+/>
+
   </DialogTrigger>
  <DialogContent showCloseButton={false} className="sm:max-w-lg w-full p-4">
       {/* Search Input */}
